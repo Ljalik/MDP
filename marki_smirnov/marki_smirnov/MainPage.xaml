@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="marki_smirnov.MainPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="master" Padding="15">
+            <ContentPage.Content>
+                <StackLayout Margin="10">
+                    <Label Text="master page elemendid"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Content" Padding="15">
+            <ContentPage.Content>
+                <StackLayout Margin="10">
+                    <Label Text="content page elemendid"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+    
+</MasterDetailPage>
